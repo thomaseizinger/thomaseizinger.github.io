@@ -2079,7 +2079,13 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 2%;
+			background-image: url("../../images/avatar.jpg");
+			background-position: center;
+			background-size: cover;
+			height: 200px;
+			width: 200px;
+			background-position-x: left;
 		}
 
 			.image.avatar:before {
@@ -2528,7 +2534,6 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
 		}
 
 /* Footer */
